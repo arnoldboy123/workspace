@@ -22,8 +22,10 @@ If no argument is given, lists available plans and asks which one to work on.
    - Check if an MCP server exists that could handle it. If so, suggest installing it.
    - Otherwise, create a handoff doc in `handoffs/<slug>.md` with step-by-step instructions for the human, including what info to bring back.
    - Pause and let the human complete the handoff before continuing.
-6. After completing a batch of tasks (or hitting a decision point), pause and summarize:
+6. After all tasks are completed (or a significant batch is done), run the `code-reviewer` agent against the project directory to get a staff-level code review. Use the Agent tool with `subagent_type: "code-reviewer"` and tell it which project directory to review and what was changed. Share the review findings with the user and address any **Critical** issues before considering the build done.
+7. After the review (and any fixes), pause and summarize:
    - What was completed
+   - What the code review found and what was fixed
    - What's next
    - Any decisions or questions that need input
 

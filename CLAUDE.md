@@ -56,6 +56,11 @@ When a task requires something Claude can't do autonomously (e.g. cloud console 
    - What to come back and tell Claude once it's done (e.g. "paste the API key", "confirm the bucket exists")
 3. Pause the current build task and let the human know there's a handoff waiting.
 
+## Shell Commands
+
+- **Never chain bash commands** with `&&`, `||`, `;`, or pipes. Run each command as a separate Bash tool call instead. Chained commands trigger permission prompts because they don't match the allowed command patterns.
+- Prefer parallel independent Bash tool calls over chaining sequential commands.
+
 ## Style
 
 - This is a solo developer rapid-prototyping workflow. Prefer speed and simplicity.
