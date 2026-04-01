@@ -1,0 +1,14 @@
+# Individual project repos live here — each has its own git history
+projects/
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
