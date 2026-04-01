@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(pnpm *)",
+      "Bash(yarn *)",
+      "Bash(bun *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(cat *)",
+      "Bash(which *)",
+      "Bash(cd *)",
+      "Read(*)",
+      "Write(projects/*)",
+      "Write(plans/*)",
+      "Write(handoffs/*)",
+      "Edit(projects/*)",
+      "Edit(plans/*)",
+      "Edit(handoffs/*)"
+    ],
+    "deny": []
+  }
+}

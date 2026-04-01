@@ -1,8 +1,11 @@
 Pick up where we left off and implement the next tasks from a plan.
 
+Usage: `/build <plan-name>` — e.g. `/build my-app-mvp`
+If no argument is given, lists available plans and asks which one to work on.
+
 ## Instructions
 
-1. List the plan docs in `plans/` and ask which one to work on (or accept a name as argument: $ARGUMENTS).
+1. If `$ARGUMENTS` is provided, look for a matching plan doc in `plans/` (match by filename slug). If no argument, list the plan docs and ask which one to work on.
 2. Read the plan doc. Identify the first unchecked task(s).
 3. If the project doesn't exist yet in `projects/`, create it and initialize a git repo.
 4. Work through tasks one at a time:
