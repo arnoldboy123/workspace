@@ -14,7 +14,7 @@ workspace/
 ├── plans/             # Planning & feature docs with task checklists
 ├── handoffs/          # Step-by-step instructions for manual human tasks
 ├── .claude/
-│   ├── commands/      # Slash commands (project-local skills)
+│   ├── skills/        # Slash commands (project-local skills)
 │   ├── agents/        # Sub-agent definitions
 │   └── settings.json  # Project-local settings
 └── CLAUDE.md          # This file
@@ -25,7 +25,7 @@ workspace/
 ### Starting a new idea
 
 1. Use `/idea` to talk through and refine a concept. This creates a plan doc in `plans/`.
-2. Use `/plan` to break the refined idea into an actionable checklist in the plan doc.
+2. Use `/tasks` to break the refined idea into an actionable checklist in the plan doc.
 3. Use `/build` to implement — Claude reads the plan, picks up where it left off, and works through the checklist.
 
 ### Plan docs (`plans/`)

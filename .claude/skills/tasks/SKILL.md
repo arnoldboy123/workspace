@@ -1,3 +1,8 @@
+---
+name: tasks
+description: Review and refine the task checklist for a plan
+---
+
 Review and refine the task checklist for a plan.
 
 ## Instructions

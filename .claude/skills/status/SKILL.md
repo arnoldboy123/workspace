@@ -1,3 +1,8 @@
+---
+name: status
+description: Show the current status of all plans and projects
+---
+
 Show the current status of all plans and projects.
 
 ## Instructions

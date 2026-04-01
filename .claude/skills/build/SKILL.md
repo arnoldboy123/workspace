@@ -1,3 +1,8 @@
+---
+name: build
+description: Pick up where we left off and implement tasks from a plan
+---
+
 Pick up where we left off and implement the next tasks from a plan.
 
 Usage: `/build <plan-name>` — e.g. `/build my-app-mvp`

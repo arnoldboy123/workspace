@@ -1,3 +1,8 @@
+---
+name: ship
+description: Wrap up a completed plan — verify, archive, and optionally deploy
+---
+
 Wrap up a completed plan — verify, archive, and optionally deploy.
 
 Usage: `/ship <plan-name>` — e.g. `/ship my-app-mvp`

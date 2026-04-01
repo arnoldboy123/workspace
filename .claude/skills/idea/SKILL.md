@@ -1,3 +1,8 @@
+---
+name: idea
+description: Talk through and refine an idea into a concrete plan doc
+---
+
 Help me talk through and refine an idea for a new project or feature.
 
 ## Instructions
