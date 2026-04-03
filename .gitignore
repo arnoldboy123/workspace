@@ -1,6 +1,7 @@
 # Individual project repos live here — each has its own git history
 projects/
 plans/
+handoffs/
 
 # OS
 .DS_Store
